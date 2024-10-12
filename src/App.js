@@ -13,6 +13,7 @@ function App() {
     setCount(countedNumber)
     setResult(eval(count))
 }
+console.log(applyExpression(countedNumber))
 function resetValue(){
   setCount(0);
   setResult('')
